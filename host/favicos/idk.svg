@@ -1,1 +1,2 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 50 50"><path fill="#fc5d4b" d="m43 4h-36c-0 0 1 0 -1 0 0 1 0 -1 0 0"/></svg>
+<svg><polyline points="0,40 40,40 40,80 80,80 80,120 120,120 120,160"
+               style="fill:white;stroke:red;stroke-width:4" /></svg>
