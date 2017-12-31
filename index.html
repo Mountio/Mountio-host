@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Mountain CSS Test</title><style></style></head>
+<body>
+<div>div<p>paragraph</p></div>
+<button onclick="loadCSS();">add CSS</button>
+<script>
+function loadCSS() {
+var a = document.getElementsByTagName("style"); a[a.length-1].innerHTML = "@import url('https://fonts.googleapis.com/css?family=Orbitron'); body {background-color:  #33ccff;color:  #00ff00;}div {background-color: #003300;border-radius: 12px;color: black;}p {color: black;font-family: 'Orbitron', sans-serif;}div > p{color: white;}button {border-color: green;border-radius: 8px;background-color: green;color: white;}";
+}
+</script>
+</body>
+</html>
